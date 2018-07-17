@@ -1,0 +1,17 @@
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.sections a:hover {
+  background-color: $light-gray
+}
+
+#all {
+  text-decoration: underline;
+}
